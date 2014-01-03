@@ -1,0 +1,11 @@
+[DECLARATONS]
+string = import sys,urllib
+
+[FUNCTIONS]
+string = \ndef hello():\n\turllib.urlretrieve("http://download.thinkbroadband.com/10MB.zip", '10MB.zip')\n
+
+[CALL1]
+argument = False
+reference = False
+func_name = hello
+return = False
